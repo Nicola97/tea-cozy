@@ -1,0 +1,100 @@
+body
+{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  opacity: 0.9;
+  text-align:center;
+}
+
+header
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  background-color: black;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid Seashell;
+  justify-content: space-between;
+}
+
+header img
+{
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav a
+{
+  color: Seashell;
+  margin-right: 10px;
+}
+
+.main
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.first
+{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+  weight: 1200px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+h2,h4
+{
+  text-align:center;
+  margin: 0;
+  padding: 10px;
+  display: block;
+  background-color: black;
+}
+
+.second
+{
+  weight:1000px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.images1
+{
+  display: flex;
+  justify-content: center;
+}
+
+.img
+{
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.img img
+{
+  width: 300px;
+  height: 200px;
+}
+
+.images2
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
